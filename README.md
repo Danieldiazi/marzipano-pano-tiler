@@ -10,3 +10,12 @@ This scripts output can be read by the Marzipano viewer in your application.
 Place your equirectangular image into the `./input/` dir.
 <br>
 Run script in terminal: `node index.js`
+
+# Prerequisites
+- nodejs 16 or later
+
+## Dependencies
+-  npm install sharp join-images
+-  pm install panorama-to-cubemap
+
+  
