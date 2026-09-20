@@ -7,15 +7,20 @@ This is a simple node.js script that produces the same output as Google's tool.
 
 This scripts output can be read by the Marzipano viewer in your application.
 
-Place your equirectangular image into the `./input/` dir.
-<br>
-Run script in terminal: `node index.js`
+## Prerequisites
 
-# Prerequisites
-- nodejs 16 or later
+- Node.js 16 or later
+- npm
 
-## Dependencies
--  npm install sharp join-images
--  pm install panorama-to-cubemap
+## Installation
 
-  
+```sh
+npm install
+```
+
+The command installs `sharp`, `join-images`, and `panorama-to-cubemap` from `package.json`.
+
+## Usage
+
+1. Place your equirectangular image in the `./input/` directory.
+2. Run `node index.js`.
